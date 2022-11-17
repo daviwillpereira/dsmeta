@@ -1,7 +1,7 @@
 .dsmeta-red-btn {
   height: 45px;
   width: 45px;
-  background: rgba(255, 107, 114, 0.1);
+  background: rgba(235, 188, 191, 0.1);
   border: 1px solid #ff6b72;
   border-radius: 10px;
   display: flex;
@@ -10,6 +10,12 @@
   cursor: pointer;
 }
 
+.dsmeta-red-btn:hover {
+  background: rgba(215, 197, 197, 0.238);
+  border: 1px solid #ff6b72;
+}
+
 .dsmeta-red-btn img {
-    width: 19px;
+  width: 19px;
+  transition-duration: 0.4s;
 }
