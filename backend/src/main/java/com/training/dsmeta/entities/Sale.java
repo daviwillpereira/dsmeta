@@ -1,6 +1,5 @@
 package com.training.dsmeta.entities;
 
-import java.math.BigDecimal;
 import java.time.LocalDate;
 
 import javax.persistence.Entity;
@@ -19,7 +18,7 @@ public class Sale {
 	private String sellerName;
 	private Integer visited;
 	private Integer deals;
-	private BigDecimal amount;
+	private Double amount;
 	private LocalDate date;
 
 	public Sale() {
@@ -57,11 +56,11 @@ public class Sale {
 		this.deals = deals;
 	}
 
-	public BigDecimal getAmount() {
+	public Double getAmount() {
 		return amount;
 	}
 
-	public void setAmount(BigDecimal amount) {
+	public void setAmount(Double amount) {
 		this.amount = amount;
 	}
 
